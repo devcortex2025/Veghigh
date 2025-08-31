@@ -77,6 +77,8 @@ A modern React-based website for fresh vegetable marketplace with automatic depl
 
 ## 🚀 Live Website
 
+**🌐 Visit:** [https://veghigh.in](https://veghigh.in)
+
 The website automatically deploys when you push changes to the main branch.
 
 ## 🛠️ Development
@@ -115,6 +117,19 @@ This project is configured for automatic deployment with multiple platforms:
 1. Connect your GitHub repository to Netlify
 2. Netlify will automatically deploy on every push
 3. Configuration is already set in `netlify.toml`
+
+## 🌐 Custom Domain Setup
+
+This project is configured for the custom domain **veghigh.in**:
+
+- **CNAME file** is included for GitHub Pages
+- **Vercel configuration** includes domain settings
+- **Base path** is set to root for custom domain compatibility
+
+### Domain Configuration:
+- Primary domain: `veghigh.in`
+- WWW domain: `www.veghigh.in`
+- HTTPS is automatically enabled on all platforms
 
 ## 📁 Project Structure
 
@@ -166,3 +181,4 @@ npm run lint
 ## 📄 License
 
 This project is open source and available under the MIT License.
+`

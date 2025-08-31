@@ -8,5 +8,6 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "domains": ["veghigh.in", "www.veghigh.in"]
 } 
